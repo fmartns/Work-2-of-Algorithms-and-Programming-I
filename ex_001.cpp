@@ -12,7 +12,7 @@ int main() {
 
     total = total * 100; // Conversão dos centavos para real.
 
-    float cemReais;
+    float cemReais = 0;
 
     for(float i = 10000; i <= total; i = i+10000){
         cemReais = cemReais+1;
@@ -20,7 +20,7 @@ int main() {
 
     total = total - (cemReais * 10000);
 
-    float cinquentaReais;
+    float cinquentaReais = 0;
 
     for(float i = 5000; i <= total; i = i+5000){
         cinquentaReais = cinquentaReais+1;
@@ -28,7 +28,7 @@ int main() {
 
     total = total - (cinquentaReais * 5000);
 
-    float vinteReais;
+    float vinteReais = 0;
 
     for(float i = 2000; i <= total; i = i + 2000){
         vinteReais = vinteReais+1;
@@ -36,7 +36,7 @@ int main() {
 
     total = total - (vinteReais * 2000);
 
-    float dezReais;
+    float dezReais = 0;
 
     for(float i = 1000; i <= total; i = i + 1000){
         dezReais = dezReais+1;
@@ -44,7 +44,7 @@ int main() {
 
     total = total - (dezReais * 1000);
 
-    float cincoReais;
+    float cincoReais = 0;
 
     for(float i = 500; i <= total; i = i + 500){
         cincoReais = cincoReais+1;
@@ -52,7 +52,7 @@ int main() {
 
     total = total - (cincoReais * 500);
 
-    float doisReais;
+    float doisReais = 0;
 
     for(float i = 200; i <= total; i = i + 200){
         doisReais = doisReais+1;
@@ -60,7 +60,7 @@ int main() {
 
     total = total - (doisReais * 200);
 
-    float umReal;
+    float umReal = 0;
 
     for(float i = 100; i <= total; i = i + 100){
         umReal = umReal+1;
@@ -68,7 +68,7 @@ int main() {
 
     total = total - (umReal * 100);
 
-    float cinquentaCentavos;
+    float cinquentaCentavos = 0;
 
     for(float i = 50; i <= total; i = i + 50){
         cinquentaCentavos = cinquentaCentavos+1;
@@ -76,7 +76,7 @@ int main() {
 
     total = total - (cinquentaCentavos * 50);
 
-    float vinteCincoCentavos;
+    float vinteCincoCentavos = 0;
 
     for(float i = 25; i <= total; i = i + 25){
         vinteCincoCentavos = vinteCincoCentavos+1;
@@ -84,7 +84,7 @@ int main() {
 
     total = total - (vinteCincoCentavos * 25);
 
-    float dezCentavos;
+    float dezCentavos = 0;
 
     for(float i = 10; i <= total; i = i + 10){
         dezCentavos = dezCentavos+1;
@@ -92,7 +92,7 @@ int main() {
 
     total = total - (dezCentavos * 10);
 
-    float cincoCentavos;
+    float cincoCentavos = 0;
 
     for(float i = 5; i <= total; i = i + 5){
     cincoCentavos = cincoCentavos + 1; 
@@ -100,7 +100,7 @@ int main() {
 
     total = total - (cincoCentavos * 5);
 
-    float umCentavo;
+    float umCentavo = 0;
 
     for(float i = 1; i <= total; i = i + 1){
         umCentavo = umCentavo+1;

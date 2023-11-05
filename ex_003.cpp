@@ -4,8 +4,6 @@ using namespace std;
 
 int main() {
 
-    cout << "Calcular os divisores de um numero n em um intervalo de inteiros [a,b]." << endl;
-
     int n;
     cout << "Defina um numero: ";
     cin >> n;

@@ -18,7 +18,7 @@ int main()
         soma = soma + unitario;
     }
     
-    cout << soma;
+    cout << "A soma dos algoritimos resulta em " << soma;
 
     return 0;
 }

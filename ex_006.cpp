@@ -6,7 +6,7 @@ int main() {
 
     cout << "Calcular a  media de notas dos alunos de uma dada disciplina." << endl;
 
-    int n;
+    double n;
     cout << "Defina o numero de notas que deseja calcular: ";
     cin >> n;
 

@@ -14,7 +14,7 @@ int main() {
 
     int resultado = numero;
 
-    for(int i = 1; i <= expoente; i++){
+    for(int i = 1; i < expoente; i++){
         resultado = resultado * numero;
     }
 

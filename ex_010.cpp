@@ -17,9 +17,9 @@ int main() {
     }
 
     if(num == soma ){
-        cout << num << " e um numero e perfeito.";
+        cout << num << " e um numero perfeito.";
     } else {
-        cout << num << " nao e um numero e perfeito.";
+        cout << num << " nao e um numero perfeito.";
     }
 
     return 0;
