@@ -26,7 +26,7 @@ int main() {
         }
     }
 
-    cout << soma;
+    cout << "A soma entre todos os divisores de " << n << " num intervalo de " << a << " a " << b << " resulta em " << soma;
 
     return 0;
 }

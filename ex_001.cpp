@@ -106,7 +106,7 @@ int main() {
         umCentavo = umCentavo+1;
     }
 
-    cout << "O total de R$ " <<  + valor << " reais, pode ser convertido para o seguinte conjunto de cedulas: " << endl;
+    cout << "O total de R$ " <<  + valor << " reais, pode ser convertido para o seguinte conjunto de cedulas e moedas: " << endl;
     cout << "Notas de 100 reais: " << cemReais << endl;
     cout << "Notas de 50 reais: " << cinquentaReais << endl;
     cout << "Notas de 20 reais: " << vinteReais << endl;
