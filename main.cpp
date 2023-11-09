@@ -6,27 +6,27 @@ int main() {
 
     int opcoes;
 
-    cout << "[1] Verificar a menor quantidade de cédulas e moedas que um valor monetário pode ser decomposto" << endl;
-    cout << "[2] Determinar a soma dos números primos em um intervalo de inteiros" << endl; 
-    cout << "[3] Calcular os divisores de um número em um intervalo de inteiros" << endl; 
-    cout << "[4] Calcular a potência de um número elevado a outro." << endl;
-    cout << "[5] Determinar a série de fibonacci para um inteiro" << endl;
-    cout << "[6] Calcular a  média de notas dos alunos de uma disciplina" << endl;
-    cout << "[7] Determinar qual é o maior salário dentre os entrevistados." << endl;
+    cout << "[1] Verificar a menor quantidade de cedulas e moedas que um valor monetario pode ser decomposto" << endl;
+    cout << "[2] Determinar a soma dos numeros primos em um intervalo de inteiros" << endl; 
+    cout << "[3] Calcular os divisores de um numero em um intervalo de inteiros" << endl; 
+    cout << "[4] Calcular a potencia de um numero elevado a outro." << endl;
+    cout << "[5] Determinar a serie de fibonacci para um inteiro" << endl;
+    cout << "[6] Calcular a  media de notas dos alunos de uma disciplina" << endl;
+    cout << "[7] Determinar qual e o maior salario dentre os entrevistados." << endl;
     cout << "[8] Descubra em quanto tempo um pais com 5000000 habitantes e uma natalidade de 3 porcento ao ano \nconsegue ultrapassar um pais com 7000000 de habitantes e uma natalidade de 2 porcento ao ano." << endl;
-    cout << "[9] Realizar a soma dos dígitos de um numero inteiro" << endl;
-    cout << "[10] Verificar se um inteiro é um número perfeito" << endl; 
-    cout << "[11] Sair do programa";
+    cout << "[9] Realizar a soma dos digitos de um numero inteiro" << endl;
+    cout << "[10] Verificar se um inteiro e um numero perfeito" << endl; 
+    cout << "[11] Sair do programa" << endl;
     cout << "Digite o codigo correspondente a opcao desejada: ";
     cin >> opcoes; 
 
     switch(opcoes) {
 
-        // Verificar a menor quantidade de cédulas e moedas que um valor monetário pode ser decomposto
+        // Verificar a menor quantidade de cedulas e moedas que um valor monetario pode ser decomposto
 
         case 1: { 
 
-        cout << "Verificar a menor quantidade de cédulas e moedas." << endl;
+        cout << "Verificar a menor quantidade de cedulas e moedas." << endl;
         float valor;
         cout << "Defina um valor em real: ";
         cin >> valor;
@@ -146,11 +146,11 @@ int main() {
         
         break; 
 
-        // Determinar a soma dos números primos em um intervalo de inteiros.
+        // Determinar a soma dos numeros primos em um intervalo de inteiros.
 
         case 2: {
 
-        cout << "Determinar a soma dos números primos em um intervalo de inteiros" << endl;
+        cout << "Determinar a soma dos numeros primos em um intervalo de inteiros" << endl;
         int n1;
         cout << "Defina o primeiro numero (deve ser inteiro e maior que zero): ";
         cin >> n1;
@@ -190,11 +190,11 @@ int main() {
 
         } break;
 
-        // Calcular os divisores de um número em um intervalo de inteiros
+        // Calcular os divisores de um numero em um intervalo de inteiros
 
         case 3: { 
 
-        cout << "Calcular os divisores de um número n em um intervalo de inteiros" << endl; 
+        cout << "Calcular os divisores de um numero n em um intervalo de inteiros" << endl; 
         int n;
         cout << "Defina um numero: ";
         cin >> n;
@@ -223,11 +223,11 @@ int main() {
         
         break;
 
-        // Calcular a potência de um número elevado a outro.
+        // Calcular a potencia de um numero elevado a outro.
 
         case 4: { 
 
-        cout << "calcular a potência de um número n elevado a k." << endl;
+        cout << "calcular a potencia de um numero n elevado a k." << endl;
         int numero;
         cout << "Defina o numero: ";
         cin >> numero;
@@ -248,11 +248,11 @@ int main() {
         
         break;
 
-        // Determinar a série de fibonacci para um inteiro
+        // Determinar a serie de fibonacci para um inteiro
 
         case 5: { 
 
-        cout << "Determinar a série de fibonacci para um inteiro n" << endl; 
+        cout << "Determinar a serie de fibonacci para um inteiro n" << endl; 
         int fibonacci;
         cout << "Defina um numero: ";
         cin >> fibonacci;
@@ -281,7 +281,7 @@ int main() {
 
         } break;
 
-        // Calcular a  média de notas dos alunos de uma disciplina
+        // Calcular a  media de notas dos alunos de uma disciplina
 
         case 6: { 
 
@@ -309,7 +309,7 @@ int main() {
         
         break;
 
-        // Determinar qual é o maior salário dentre os entrevistados.
+        // Determinar qual e o maior salario dentre os entrevistados.
 
         case 7: {
         cout << "Calcular o maior salario entre os entrevistados. " << endl;
@@ -342,7 +342,7 @@ int main() {
         // consegue ultrapassar um pais com 7000000 de habitantes e uma natalidade de 2 porcento ao ano.
 
         case 8: {
-        cout << "calcule o tempo necessário para que a população do país A ultrapasse a população do país B." << endl;
+        cout << "calcule o tempo necessario para que a população do pais A ultrapasse a população do pais B." << endl;
         int paisA = 5000000;
         int paisB = 7000000;
 
@@ -359,10 +359,10 @@ int main() {
         
         break;
 
-        // Realizar a soma dos dígitos de um numero inteiro
+        // Realizar a soma dos digitos de um numero inteiro
 
         case 9: { 
-        cout << "Realizar a soma dos dígitos de um inteiro n." << endl; 
+        cout << "Realizar a soma dos digitos de um inteiro n." << endl; 
         int valor;
         cout << "Defina um numero: ";
         cin >> valor;
@@ -382,10 +382,10 @@ int main() {
         
         break;
 
-        // Verificar se um inteiro é um número perfeito
+        // Verificar se um inteiro e um numero perfeito
 
         case 10:{
-        cout << "Verificar se um inteiro é um número perfeito" << endl;   
+        cout << "Verificar se um inteiro e um numero perfeito" << endl;   
         int num;
         cout << "Defina um numero: ";
         cin >> num;
